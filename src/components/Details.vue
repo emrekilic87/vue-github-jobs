@@ -56,6 +56,12 @@ export default {
   .desc {
     margin-top: 2em;
     color: #808e9f;
+    /deep/ a{
+      color: #808e9f;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
   }
 
   .apply {
@@ -64,6 +70,13 @@ export default {
     padding: 1em;
     color: #000;
     font-weight: bold;
+    overflow: hidden;
+    /deep/ a{
+      color: #000;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
   }
 }
 </style>
